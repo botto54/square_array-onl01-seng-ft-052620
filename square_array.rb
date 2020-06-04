@@ -5,7 +5,7 @@ def square_array(array)
   
   new_numbers = []
   array.each do |num|
-    puts new_numbers << num**2
+    puts new_numbers << "#{num}"**2
   end
   
 end
